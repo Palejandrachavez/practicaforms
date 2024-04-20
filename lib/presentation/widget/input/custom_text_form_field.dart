@@ -30,9 +30,11 @@ class CustomTextFormField extends StatelessWidget {
           focusedBorder:
               border.copyWith(borderSide: BorderSide(color: colors.primary)),
           errorBorder: border.copyWith(
-              borderSide: BorderSide(color: Color.fromARGB(255, 37, 223, 223))),
+              borderSide:
+                  BorderSide(color: const Color.fromARGB(255, 37, 223, 223))),
           focusedErrorBorder: border.copyWith(
-              borderSide: BorderSide(color: Color.fromARGB(255, 10, 143, 96))),
+              borderSide:
+                  BorderSide(color: const Color.fromARGB(255, 10, 143, 96))),
           isDense: true,
           label: label != null ? Text(label!) : null,
           hintText: hint,
