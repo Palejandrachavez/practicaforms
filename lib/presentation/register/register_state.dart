@@ -12,7 +12,7 @@ class RegisterFormState {
     this.formStatus = FormStatus.invalid,
     this.userName = "",
     this.email = "",
-    this.password = "",
+    this.password = "123132",
   });
 
   RegisterFormState copyWith(
